@@ -23,3 +23,17 @@ The project demonstrates API integration, state management, and a responsive UI 
 ---
 
 ## 📂 Project Structure
+BlogApp/
+│
+├── client/ # React frontend (Vite + Tailwind)
+│ ├── src/
+│ │ ├── components/ # ArticleForm, ArticleList, ArticleItem
+│ │ ├── api/ # API calls using Axios
+│ │ └── App.jsx
+│
+├── server/ # Backend (Node + Express)
+│ ├── models/ # Mongoose schemas
+│ ├── routes/ # API routes
+│ └── controllers/ # CRUD logic
+│
+└── README.md
