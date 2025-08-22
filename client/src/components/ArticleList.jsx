@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { getArticles, deleteArticle } from "../api/articleApi";
 
+
+
 export default function ArticleList() {
   const [articles, setArticles] = useState([]);
 
